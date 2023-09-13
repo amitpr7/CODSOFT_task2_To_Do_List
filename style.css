@@ -1,0 +1,147 @@
+*{
+  /* border: 1px solid red; */
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgba(6, 106, 205, 1);
+  overflow: hidden;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 600px;
+  height: 400px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.section1 {
+  width: 99.7%;
+  height: 80px;
+}
+
+.input_section {
+  padding: 20px 10px;
+  border: 1px solid white;
+  background-color: white;
+  height: 40px;
+  display: flex;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid rgba(6, 106, 205, 1);
+}
+
+.text {
+  border-radius: 5px;
+  width: 85%;
+  border: 2px solid rgb(161, 161, 163);
+  background-color: white;
+  padding: 5px;
+  font-size: 25px;
+  /* color: white; */
+}
+
+.add {
+  height: 39px;
+  border-radius: 5px;
+  width: 11%;
+  font-size: 1.25rem;
+  border: 2px solid rgba(6, 106, 205, 1);
+  background-color: rgba(6, 106, 205, 1);
+  color: white;
+  margin-left: 15px;
+}
+
+.add:hover{
+  cursor: pointer;
+}
+
+.section2 {
+  height: 313px;
+  width: 99.7%;
+  overflow-y: scroll;
+  /* overflow-x: scroll; */
+}
+
+.section2::-webkit-scrollbar {
+  width: 12px;
+}
+
+.section2::-webkit-scrollbar-track {
+  background: white; /* color of the tracking area */
+}
+
+.section2::-webkit-scrollbar-thumb {
+  background-color: rgba(6, 106, 205, 1); /* color of the scroll thumb */
+  border-radius: 5px; /* roundness of the scroll thumb */
+  border: 1px solid white; /* creates padding around scroll thumb */
+}
+
+.element {
+  margin: 4px 10px;
+}
+
+.image-div {
+  background-color: white;
+  margin: 0 5px 0 0;
+  border-radius: 5px;
+  height: 28px;
+  width: 28px;
+}
+
+.image-div:hover{
+  cursor: pointer;
+}
+
+.image {
+  height: 100%;
+  width: 28px;
+  /* height: 28px; */
+  border-radius: 5px;
+  /* display: none; */
+}
+
+.parts {
+  border-radius: 5px;
+  width: 98%;
+  border: 1px solid rgba(1, 83, 157, 1);
+  background-color: rgb(169, 208, 246);
+  padding: 5px;
+  font-size: 25px;
+  /* height: 30px; */
+  display: flex;
+}
+
+.task{
+    width: 480px;
+}
+
+.close{
+  height: 28px;
+  width: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.close:hover{
+  cursor: pointer;
+}
+
+.image_close{
+  height: 15px;
+  width: 15px;
+}
